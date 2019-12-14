@@ -39,7 +39,8 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.each do |word|if word == array[1]
+  array.each do |word|
+    if word == array[1]
       puts word
 end 
     word << "s"
