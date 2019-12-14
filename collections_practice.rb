@@ -41,7 +41,7 @@ end
 def add_s(array)
   array.each do |word|
     if word == array[1]
-      puts word - "s"
+      puts word = "feet"
 end 
     word << "s"
     
